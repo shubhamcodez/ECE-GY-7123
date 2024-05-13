@@ -1,0 +1,12 @@
+python test.py --plms --gpu_id 0 \
+--ddim_steps 100 \
+--outdir results/viton \
+--config configs/viton512.yaml \
+--dataroot /home/bill/deep-learning/VITON-HD \
+--ckpt /home/bill/deep_learning/DCI-VTON-Virtual-Try-On/checkpoints/viton512.ckpt \
+--n_samples 8 \
+--seed 23 \
+--scale 1 \
+--H 512 \
+--W 512 \
+--unpaired
